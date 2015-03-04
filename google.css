@@ -1,0 +1,122 @@
+body, a {
+	font-family:arial,sans-serif;
+	font-size:small;
+	color:#404040;
+	vertical-align: middle;
+	text-decoration:none;
+	
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+nav {
+	text-align:right;
+	padding:0 10px;
+	margin:0 0 20px 0;
+}
+
+
+nav ul li, footer ul li {
+	list-style:none;
+	display:inline;
+	margin:0 5px 0 5px;
+}
+nav ul li a, nav ul li button, nav ul li span, nav ul li span, footer ul li {
+	vertical-align:middle;
+}
+
+#apps {
+	display:inline-block;
+	vertical-align:middle;
+	width:25px;
+	height:25px;
+	background:url(images/googleicons.png);
+	background-position:-329px -55px;
+	background-size: 356px 144px;
+	overflow: hidden;
+}
+
+
+#signinbutton {
+	background-color:#036cdb;
+	color:#fff;
+	border-radius:1px;
+	border:none;
+	font-weight:bold;
+	
+	padding:7px 15px;
+}
+
+form {
+	text-align:center;
+	margin:5px;
+}
+
+input, input:focus {
+	margin:auto;
+	border:none;
+	width:100%;
+	outline: 0;
+	vertical-align:middle;
+	display:inline;
+}
+
+#searchbar {
+	width:580px;
+	margin:0 auto;
+	border:1px solid #D3D3D3;
+	height:27px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#searchbar:hover {
+	border: 1px solid #A9A9A9;
+}
+#searchbar:focus {
+	border:1px solid #0000FF;
+}
+
+#logo {
+	text-align:center;
+	margin:100px 0px 50px 0px;
+}
+
+#buttons button {
+	height:30px;
+	border-radius:1px;
+	background:#eee;
+	border:1px solid #ddd;
+	font-weight:bold;
+	font-size:.75em;
+}
+
+#buttons button:hover {
+	border:1px solid #ccc;
+	box-shadow: 0px 0px 1px #aaa;
+	-webkit-box-shadow: 0px 0px 1px #aaa;
+	-moz-box-shadow: 0px 0px 1px #aaa;
+
+}
+
+footer, #footer {
+	position: absolute;
+	left: 0; right: 0; bottom: 0;
+	background-color:#eee;
+	border:1px solid #ddd;
+	height:40px;	
+}
+
+.leftfoot {
+	color:#eee;
+	position:absolute;
+	left:0;
+}
+
+.rightfoot {
+	color:#eee;
+	position:absolute;
+	right:0;
+}
